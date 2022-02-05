@@ -1,0 +1,11 @@
+{
+  "name": "strapi-plugin-typescript",
+  "private": true,
+  "version": "0.0.0",
+  "strapi": {
+    "displayName": "Typescript",
+    "name": "typescript",
+    "description": "Description of typescript plugin",
+    "kind": "plugin"
+  }
+}

@@ -1715,10 +1715,9 @@
   dependencies:
     "@strapi/utils" "4.0.7"
 
-"@strapi/strapi@4.0.7":
+"@strapi/strapi@https://gitpkg.now.sh/stafyniaksacha/strapi/packages/core/strapi?feat/typescript-mjs":
   version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-4.0.7.tgz#37eadd5350a2fb3fc6377a227a7bae9041460054"
-  integrity sha512-cKA9m/SncqzLIVZYghh18ba8D4+rMbLqDnzqHOj+fflYQ5ewlbVi0p+y1MfRvDpDawgmMXUujd8jLmW9p9nuqw==
+  resolved "https://gitpkg.now.sh/stafyniaksacha/strapi/packages/core/strapi?feat/typescript-mjs#c6b973b180372cbeddb427913091a30b13c2080d"
   dependencies:
     "@koa/cors" "3.1.0"
     "@koa/router" "10.1.1"
@@ -1749,6 +1748,7 @@
     http-errors "1.8.0"
     inquirer "8.2.0"
     is-docker "2.2.1"
+    jiti "1.12.15"
     koa "2.13.3"
     koa-body "4.2.0"
     koa-compose "4.1.0"
@@ -5908,6 +5908,11 @@ jest-worker@^27.4.1, jest-worker@^27.4.5:
     "@types/node" "*"
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
+
+jiti@1.12.15:
+  version "1.12.15"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.12.15.tgz#8f6a141c06524ab32e05d5e3c9b33eeda54ae775"
+  integrity sha512-/+K89y6KJA2nISbWrlc/773XdpDgSQq/LdQ+ZZyw2jRxUNyquPtbsDCCCMRzzNORUgroUGc4nAXxJEnQvpViCA==
 
 js-cookie@2.2.1:
   version "2.2.1"
